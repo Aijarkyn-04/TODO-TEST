@@ -1,0 +1,49 @@
+.todo{
+    width: 400px;
+    height: 250px;
+    background-color: beige;
+     border: none;
+     border-radius: 10px;
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+display:flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+padding: 4px;
+font-size: 1,1rem;
+padding: 0px 5px;   
+margin: auto;
+margin-top: 50px;
+}
+.todo>h1{
+margin: 0;
+}
+.todo >input{
+width: 90%;
+height: 40px;
+border-radius: 7px;
+}
+.todo > input:focus{
+    border: 2px solid rgb(62, 191, 62);
+}
+.todo > div{
+width: 90%;
+display: flex;
+justify-content: flex-end;
+}
+
+.todo button{
+    padding: 7px 20px;
+    font-size: 1,1rem;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.todo button:hover{
+    background-color: chocolate;
+    transition-duration: 0,5s;
+}
+.todo button:active{
+    background-color: rgb(30, 201, 210);
+}
